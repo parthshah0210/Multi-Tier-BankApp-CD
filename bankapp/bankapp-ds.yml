@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: parthu210/bankapp:{image tag}
+        image: parthu210/bankapp:v20
         ports:
         - containerPort: 8080
         env:
