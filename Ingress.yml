@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: bankapp.example.com
+  - host: parthdevops.online
     http:
       paths:
       - path: /
