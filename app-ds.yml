@@ -36,7 +36,7 @@ kind: Service
 metadata:
   name: bankapp-service
 spec:
-  type: Ingress
+  type: NodePort
   ports:
   - port: 80
     targetPort: 8080
